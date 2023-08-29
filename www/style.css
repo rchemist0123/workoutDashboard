@@ -1,0 +1,89 @@
+.diary_form_out {
+  display: flex;
+  justify-content: center;
+}
+
+.diary_form_in {
+  margin: auto;
+  border-radius: 5%;
+  padding: 50px;
+}
+
+div#login-panel {
+  margin-top: 20%;
+  border: 3px solid lightgray;
+  border-radius: 5%;
+}
+
+div.col-sm-12 {
+  display: flex;
+  justify-content: center;
+}
+
+div#write_box {
+  width: 350px;
+}
+
+
+div.save-btn {
+  text-align: center;
+}
+
+div[id^="set"] {
+  border: 1px dashed lightgray;
+  border-radius: 5%;
+  margin-bottom: 5px;
+}
+
+div[id^="set"] > div.form-group.shiny-input-container {
+  display: inline-block;
+  width: 30%;
+}
+
+
+/*************Dashboard*******************/
+
+/* Infobox*/
+#infobox-text{border-radius:6px;box-shadow:0 2px 8px -2px rgba(82,82,82,0.4);width:100%}
+
+.change-value {
+  border-top:1px solid #B3B8BA;
+  font-size:1rem;font-weight:500;
+  grid-area:percent;
+  padding-top:.3125rem;
+  text-align:right;
+}
+
+div[id^="infobox-"] {
+  max-width: 100%;
+}
+
+input[id^="write_diary-weight"], input[id^="write_diary-rep"] {
+  
+}
+
+div.shiny-input-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style: none;
+}
+
+button.btn.dropdown-toggle.btn-light {
+  border-color: darkgrey;
+}
+
+button#login-button {
+  background-color: dodgerblue;
+}
+
+button#logout-button{
+  background-color: red;
+  border-color: red;
+}
+
+#write_diary-write {
+  width: 150px;
+}
